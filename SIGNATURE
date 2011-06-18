@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 4afb6c6e164f6f520516e005a4033742fdbd9b57 Changes
+SHA1 e0c960a8c753961120fef67d345ff679670a1bc1 MANIFEST
+SHA1 1fbed63bc720ea9663689cb1225b39a5cc5dd2c3 META.yml
+SHA1 00e9936da76249bc3a6252004fdd18bd3afe3f04 Makefile.PL
+SHA1 eb904812fcf98b75798644a6d7d0ae804278b7e5 README
+SHA1 3f4061e72f73450d030554259c2dd015537c7666 README.mkdn
+SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
+SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
+SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
+SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
+SHA1 842aecffd1b6f9f3c1deeaf33291f624f2b4e9f3 inc/Module/Install/GithubMeta.pm
+SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
+SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
+SHA1 db56372d57faebf96ef4872afbb108b2fb2bd451 inc/Module/Install/Package.pm
+SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
+SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
+SHA1 182be42665c19c4b9b6380a101be3ca767bc6b96 inc/Module/Package.pm
+SHA1 ccb48d3fec5ef96403f50b13eec529ce10961c02 inc/Pod/Markdown.pm
+SHA1 22f116fce5a71a09c7709adc081b511a5698415d lib/methods.pm
+SHA1 3fddfd3200c10d6d074202ecf0a6f534b18cf43f t/00-load.t
+SHA1 b51d99d5eb42309cc9d333f595b6e8a7cce5279a t/01-parse-proto.t
+SHA1 2c89e18083bf9ed8233f4745a86216fc5c726e98 t/02-use.t
+SHA1 9c13992ddb5fb47a551d6c980e9f5da395bd34a0 t/03-config.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAk39Ow0ACgkQtLPdNzw1AaBAAwCeOCbIrZfLUHPKmnhiV/xejsVd
+NWIAnA0dMMZpWE5oC3ZHrz7GLW4EhD78
+=dmiJ
+-----END PGP SIGNATURE-----
