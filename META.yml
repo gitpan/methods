@@ -22,7 +22,8 @@ requires:
   Method::Signatures::Simple: 0
   namespace::autoclean: 0
   perl: 5.8.0
+  true::VERSION: 0
 resources:
   homepage: http://github.com/audreyt/methods/tree
   repository: git://github.com/audreyt/methods.git
-version: 0.01
+version: 0.02
