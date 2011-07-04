@@ -21,4 +21,5 @@ t/00-load.t
 t/01-parse-proto.t
 t/02-use.t
 t/03-config.t
+t/methods-invoker.t
 SIGNATURE                                Public-key signature (added by MakeMaker)

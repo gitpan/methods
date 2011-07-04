@@ -8,7 +8,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
 generated_by: 'Module::Install version 1.01'
-license: cc0
+license: unrestricted
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -20,10 +20,14 @@ no_index:
     - t
 requires:
   Method::Signatures::Simple: 0
+  invoker: 0
   namespace::autoclean: 0
   perl: 5.8.0
   true::VERSION: 0
 resources:
   homepage: http://github.com/audreyt/methods/tree
-  repository: git://github.com/audreyt/methods.git
-version: 0.02
+  repository:
+    type: git
+    url: git://github.com/audreyt/methods.git
+    web: http://github.com/audreyt/methods/tree
+version: 0.03
