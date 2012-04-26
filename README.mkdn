@@ -1,6 +1,6 @@
 # NAME
 
-methods - Provide method syntax and autoclean namespaces
+methods - Provide method syntax and sweep namespaces
 
 # SYNOPSIS
 
@@ -31,7 +31,7 @@ With [invoker](http://search.cpan.org/perldoc?invoker) support:
 This module uses [Method::Signatures::Simple](http://search.cpan.org/perldoc?Method::Signatures::Simple) to provide named and
 anonymous methods with parameters, except with a shorter module name.
 
-It also imports [namespace::autoclean](http://search.cpan.org/perldoc?namespace::autoclean) so the `method` helper function
+It also imports [namespace::sweep](http://search.cpan.org/perldoc?namespace::sweep) so the `method` helper function
 (as well as any imported helper functions) won't become methods in the
 importing module.
 
