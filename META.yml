@@ -31,4 +31,4 @@ resources:
     type: git
     url: git://github.com/audreyt/methods.git
     web: https://github.com/audreyt/methods/tree
-version: 0.11
+version: 0.12
